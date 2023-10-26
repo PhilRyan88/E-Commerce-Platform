@@ -1,5 +1,6 @@
 import React from "react";
 import { ProductCard } from "./ProductCard";
+import AddtoCart from "./AddtoCart";
 
 const Product = () => {
   return (
@@ -8,6 +9,7 @@ const Product = () => {
         <h1>Product</h1>
       </center>
       <ProductCard />
+      <AddtoCart />
     </div>
   );
 };
