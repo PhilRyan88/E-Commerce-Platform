@@ -3,10 +3,16 @@ import AddtoCart from "./AddtoCart";
 function ProductCard({ product }) {
   return (
     <div className="product">
-      <div>{product.title}</div>
+      <div className="title">{product.title}</div>
       <div> {product.price.value}</div>
       <AddtoCart />
-      <marquee wdith="1368" height="20" scrollamount="10" bgcolor="aqua">
+      <marquee
+        wdith="1368"
+        height="20"
+        scrollamount="10"
+        bgcolor="aqua"
+        color="white"
+      >
         Hurry up! Limited offer of {product.title} ends soon!
       </marquee>
     </div>

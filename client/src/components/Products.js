@@ -48,7 +48,7 @@ function Products() {
   // if the prev value of setState is same as the current value;
 
   return (
-    <div>
+    <div className="App" bgcolor="black">
       {products.map(function (item) {
         return <ProductCard product={item} key={item.id} />;
       })}
