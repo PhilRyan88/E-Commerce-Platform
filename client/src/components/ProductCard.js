@@ -6,13 +6,7 @@ function ProductCard({ product }) {
       <div className="title">{product.title}</div>
       <div> {product.price.value}</div>
       <AddtoCart />
-      <marquee
-        wdith="1368"
-        height="20"
-        scrollamount="10"
-        bgcolor="aqua"
-        color="white"
-      >
+      <marquee wdith="1368" height="20" scrollamount="10" bgcolor="aqua">
         Hurry up! Limited offer of {product.title} ends soon!
       </marquee>
     </div>
