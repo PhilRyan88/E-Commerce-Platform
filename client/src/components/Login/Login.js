@@ -16,7 +16,7 @@ export const Login = () => {
         <h2>E-Commerce Login</h2>
         <form>
           <div className="input-box">
-            <input type="email" required />
+            <input type="email" required inputMode="email" />
             <label>Email</label>
           </div>
           <div className="input-box">
