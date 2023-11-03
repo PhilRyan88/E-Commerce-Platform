@@ -10,7 +10,7 @@ import { useState } from "react";
 export default function App() {
   const [cart, setCart] = useState({});
   function increase() {
-    console.log("increment");
+    console.log("increment clicked");
   }
 
   function decrease() {
