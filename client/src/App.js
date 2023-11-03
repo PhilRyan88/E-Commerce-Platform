@@ -14,7 +14,7 @@ export default function App() {
   }
 
   function decrease() {
-    console.log("decrement");
+    console.log("decrement clicked");
   }
 
   return (
