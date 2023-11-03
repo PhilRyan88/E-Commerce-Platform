@@ -4,7 +4,7 @@ import CartContext from "./components/CartContext";
 //import Login from "./components/Login/Login";
 //import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
-import Sidebar from "./components/Sidebar";
+
 // Products()
 
 export default function App() {
