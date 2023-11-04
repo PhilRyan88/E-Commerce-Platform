@@ -5,7 +5,6 @@ import { Routes, Route, useNavigate } from "react-router-dom";
 //import { useState } from "react";
 import Products from "../Products";
 export const Login = () => {
-  const nav = useNavigate();
   const goToHome = () => {
     nav("/Home");
   };
