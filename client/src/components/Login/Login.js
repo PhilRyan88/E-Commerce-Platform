@@ -29,9 +29,6 @@ export const Login = () => {
           <button type="submit" className="btn" onClick={goToHome}>
             Login
           </button>
-          <div className="signup-link">
-            <a href="#">Signup</a>
-          </div>
         </form>
         <div>
           <Routes>
