@@ -7,7 +7,13 @@ const Sidebar = () => {
     const closeBtn = document.querySelector("#btn");
     const searchBtn = document.querySelector(".bx-search");
 
-    const menuBtnChange = () => {};
+    const menuBtnChange = () => {
+      if (sidebar.classList.contains("open")) {
+        closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+      } else {
+        closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+      }
+    };
 
     const toggleSidebar = () => {
       sidebar.classList.toggle("open");
