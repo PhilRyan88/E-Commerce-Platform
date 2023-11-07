@@ -15,7 +15,9 @@ const Sidebar = () => {
       }
     };
 
-    co
+    const toggleSidebar = () => {
+      sidebar.classList.toggle("open");
+      menuBtnChange();
     };
 
     closeBtn.addEventListener("click", toggleSidebar);
