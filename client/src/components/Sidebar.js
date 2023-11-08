@@ -3,6 +3,10 @@ import "./Sidebar.css";
 
 const Sidebar = () => {
   useEffect(() => {
+    const sidebar = document.querySelector(".sidebar");
+    const closeBtn = document.querySelector("#btn");
+    const searchBtn = document.querySelector(".bx-search");
+
     const menuBtnChange = () => {
       if (sidebar.classList.contains("open")) {
         closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
