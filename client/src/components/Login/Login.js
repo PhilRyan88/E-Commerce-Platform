@@ -34,9 +34,7 @@ export const Login = () => {
           </div>
         </form>
         <div>
-          <Routes>
-            <Route path="Home" element={<Products />} />
-          </Routes>
+          <Routes></Routes>
         </div>
       </div>
       <span style={{ "--i": 0 }}></span>
