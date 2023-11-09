@@ -34,9 +34,8 @@ export const Login = () => {
           </div>
         </form>
         <div>
-          <Routes></Routes>
-        </div>
-      </div>
+          <Routes>
+     
       <span style={{ "--i": 0 }}></span>
       <span style={{ "--i": 1 }}></span>
       <span style={{ "--i": 2 }}></span>
