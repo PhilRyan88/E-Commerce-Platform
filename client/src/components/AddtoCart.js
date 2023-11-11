@@ -8,9 +8,7 @@ export const AddtoCart = () => {
     increase();
   }
   return (
-    <div>
-      <button onClick={increasef}>Add to Cart</button>
-    </div>
+    
   );
 };
 export default AddtoCart;
