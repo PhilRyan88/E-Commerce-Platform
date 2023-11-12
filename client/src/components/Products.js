@@ -35,16 +35,6 @@ import { useEffect, useState } from "react";
 function Products() {
   const [products, setProducts] = useState([]);
 
-  useEffect(function () {
-    fetch("https://602fc537a1e9d20017af105e.mockapi.io/api/v1/products")
-      .then((response) => {
-        return response.json();
-      })
-      .then((res) => {
-        setProducts(res);
-      });
-  }, []);
-
   // if the prev value of setState is same as the current value;
 
   return (
