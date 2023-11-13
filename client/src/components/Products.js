@@ -47,13 +47,7 @@ function Products() {
 
   // if the prev value of setState is same as the current value;
 
-  return (
-    <div className="App">
-      {products.map(function (item) {
-        return <ProductCard product={item} key={item.id} />;
-      })}
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default Products;
