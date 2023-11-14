@@ -36,7 +36,7 @@ function Products() {
   const [products, setProducts] = useState([]);
 
   useEffect(function () {
-    fetch("https://602fc537a1e9d20017af105e.mockapi.io/api/v1/products")
+    
       .then((response) => {
         return response.json();
       })
@@ -47,7 +47,13 @@ function Products() {
 
   // if the prev value of setState is same as the current value;
 
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      {products.map(function (item) {
+        return <ProductCard product={item} key={item.id} />;
+      })}
+    </div>
+  );
 }
 
 export default Products;
