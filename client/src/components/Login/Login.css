@@ -10,7 +10,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #1f293a;
+  background-image: url("https://images.hdqwalls.com/download/magic-night-with-you-9o-1920x1080.jpg");
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
   min-height: 100vh;
 }
 
