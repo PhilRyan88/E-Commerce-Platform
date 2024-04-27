@@ -18,7 +18,13 @@ export default function App() {
   }
 
   return (
-  
+    <>
+      <CartContext.Provider value={{ cart, increase, decrease }}>
+        <div className="App">
+          <Products />
+        </div>
+      </CartContext.Provider>
+    </>
   );
 }
 
