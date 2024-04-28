@@ -17,15 +17,7 @@ export default function App() {
     console.log("decrement clicked");
   }
 
-  return (
-    <>
-      <CartContext.Provider value={{ cart, increase, decrease }}>
-        <div className="App">
-          <Products />
-        </div>
-      </CartContext.Provider>
-    </>
-  );
+  return <></>;
 }
 
 // Library vs framework
