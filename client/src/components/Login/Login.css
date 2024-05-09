@@ -59,6 +59,11 @@ body {
   padding: 0 50px;
 }
 
+h2 {
+  font-size: 1.6em;
+  color: #0ef;
+  text-align: center;
+}
 .input-box {
   position: relative;
   margin: 25px 0;
